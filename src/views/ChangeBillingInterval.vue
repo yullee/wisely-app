@@ -1,8 +1,11 @@
 <template>
-  <v-flex column class="home">
+  <v-flex column class="change-billing-interval">
     <v-flex row align-items-center justify-items-center>
-      <v-typography xs="lg-auto" sm="lg-auto" light="light">
-        <div class="ma-5">정직한 가격, 독일산 면도날</div>
+      <router-link to="/mypage">
+        <v-icon class="icon" name="chevron-left" />
+      </router-link>
+      <v-typography xs="extra" sm="extra" md="extra" lg="extra" extra="extra" light="light">
+        <div class="ma-5">정기구매 배송 주기 변경</div>
       </v-typography>
     </v-flex>
   </v-flex>
@@ -11,7 +14,7 @@
 <style lang="scss" scoped>
 @import '@/assets/scss/color.scss';
 
-.home {
+.change-billing-interval {
   height: 100vh;
   font-size: 30px;
   font-weight: 300;

@@ -1,0 +1,37 @@
+{
+  "add_products": [{
+    "product_id": ["2172", "1118383", "1118384"],
+    "product_name": ["면도기", "면도기(버건디)", "면도기(카키)"],
+    "product_price": 6000,
+    "product_desc": ["인체공학적 디자인", "오픈 카트리지 구조", "간편한 세척"],
+    "product_type": "simple",
+    "product_img": "starter-set-04-modified.jpg",
+    "product_navy": { "0": ["navy/razor_navy_1.png", "navy/starter_4.jpg", "navy/starter_6.jpg", "navy/WISELY-2019-003-copy.jpg", "navy/starter_7.jpg"],
+      "1": ["burgundy/razor_red_1.png", "burgundy/WISELY-2019-015-copy.jpg", "burgundy/WISELY-2019-003-copy.jpg", "burgundy/WISELY-2019-009-copy.jpg", "burgundy/WISELY-2019-022-copy.jpg"],
+      "2": ["khaki/razor_khaki_1.png", "khaki/WISELY-2019-016-copy.jpg", "khaki/WISELY-2019-003-copy.jpg", "khaki/WISELY-2019-009-copy.jpg", "burgundy/WISELY-2019-022-copy.jpg"]
+    }, 
+    "product_burgundy": ["burgundy/razor_red_1.png", "burgundy/WISELY-2019-015-copy.jpg", "burgundy/WISELY-2019-003-copy.jpg", "burgundy/WISELY-2019-009-copy.jpg", "burgundy/WISELY-2019-022-copy.jpg"],
+    "product_color": ["#375e77", "#a12c36", "#586520"],
+    "product_thumb": ["navy/starter-set-04-modified.jpg", "burgundy/red.png", "khaki/khaki.png"] 
+  }, {
+    "product_id": ["3291"],
+    "product_name": ["쉐이빙젤"],
+    "product_price": 4500,
+    "product_desc": ["150ml, 약 2~3개월 사용 가능", "알로에 등 천연성분 사용",
+      "100% 공기로 분사하여 안전", "녹이 슬지 않고 잔량 확인 가능"],
+    "product_type": "variable-subscription",
+    "product_img": "gel_150ml_ver2.jpg",
+    "product_gel": ["gel/WISELY-2019-006-copy.jpg", "gel/WISELY-2019-035-copy.jpg", "gel/WISELY-2019-027-copy.jpg", "gel/WISELY-2019-029-copy.jpg", "gel/WISELY-2019-018-copy.jpg"],
+    "product_thumb": ["gel_150ml_ver2.jpg"]
+  }, {
+    "product_id": ["859643"],
+    "product_name": ["스타터 쉐이빙젤"],
+    "product_price": 2900,
+    "product_desc": ["75ml, 약 2~3개월 사용 가능", "알로에 등 천연성분 사용",
+      "100% 공기로 분사하여 안전", "녹이 슬지 않고 잔량 확인 가능"],
+    "product_type": "simple",
+    "product_img": "WISELY-2019-001-copy.jpg",
+    "product_starter": ["starter-gel/WISELY-2019-033-copy.jpg", "starter-gel/starter_3.jpg", "starter-gel/starter_5.jpg", "starter-gel/WISELY-2019-027-copy.jpg", "starter-gel/WISELY-2019-029-copy.jpg", "starter-gel/WISELY-2019-018-copy.jpg"],
+    "product_thumb": ["WISELY-2019-001-copy.jpg"]
+  }]
+}

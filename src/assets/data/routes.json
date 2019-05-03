@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/mypage",
+    "title": "정기구매 관리"
+  },
+  {
+    "path": "/mypage/orders-on-process",
+    "title": "주문내역 조회"
+  },
+  {
+    "path": "/mypage/myinfo",
+    "title": "정보 수정"
+  },
+  {
+    "path": "/",
+    "title": "로그아웃"
+  }
+]

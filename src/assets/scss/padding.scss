@@ -1,0 +1,17 @@
+@for $i from 1 through 5 {
+  .pr-#{$i} {
+    margin-right: $i * 10px;
+  }
+  .pl-#{$i} {
+    margin-left: $i * 10px;
+  }
+  .pt-#{$i} {
+    margin-top: $i * 10px;
+  }
+  .pb-#{$i} {
+    margin-bottom: $i * 10px;
+  }
+  .pa-#{$i} {
+    margin: $i * 10px;
+  }
+}
