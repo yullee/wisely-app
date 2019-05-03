@@ -14,6 +14,8 @@ import Multiselect from 'vue-multiselect'
 import Toasted from 'vue-toasted'
 
 Vue.config.productionTip = false;
+Vue.prototype.$http = axios;
+
 Vue.use(VueAgile)
 Vue.use(EasySlider)
 Vue.use(Toasted, {
